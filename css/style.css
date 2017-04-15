@@ -114,3 +114,49 @@ h2{
     margin: 10px 0 0 10px;
 }
 
+footer{
+    background: #882433;
+    height: 40px;
+    border: 1px solid #c13046;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer p{
+    color: #ffffff;
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+/* Tablet/Ipad (Portrait and Landscape)*/
+@media only screen and (min-width : 768px) and (max-width : 960px){
+    #container{
+        width: 95%;
+    }
+    
+    .main-header img#logo{
+        margin: auto;
+        display: block;
+        width: 65%;
+    }
+    
+    #content{
+        width: 100%;
+        float: none;
+    }
+    
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+    
+    #sidebar .block{
+        margin-left: 0;
+    }
+}
+
+/* Smaller Tablets (Portrait and Landscape)*/
+@media only screen and (min-width : 569pc) and (max-width : 767px){
+    
+}
